@@ -1,0 +1,53 @@
+{
+    "meta": {
+      "title": "Singing Lessons London • Louise Macphail • Singing Teacher",
+      "description": "Welcome to Singing Lessons London. I'm Louise and I'm a professional singing teacher offering personalized lessons in the London area.",
+      "keywords": "Singing Lessons London, Singing Teacher London, London Singing Teacher"
+    },
+    "navbar": {
+      "brand": "Singing Lessons London",
+      "about": "About",
+      "prices": "Prices",
+      "location": "Location",
+      "contact": "Contact Me"
+    },
+    "header": {
+      "welcome": "Welcome to",
+      "title": "Singing Lessons London",
+      "intro": "Hello! I'm Louise Macphail and I'm a professional singing teacher offering personalized lessons to all ages and abilities in the London area.",
+      "findOutMore": "Find Out More"
+    },
+    "about": {
+      "badge": "Louise Macphail - Professional Singing Teacher",
+      "missionBadge": "My Mission",
+      "missionTitle": "Lessons From A True Professional",
+      "missionText1": "Alongside teaching I am a professional singer with many years of experience performing live. I am often delighted to pass the knowledge and techniques I've learned to my students on a daily basis.",
+      "missionText2": "I have had experience in performing, writing and teaching in a huge selection of genres, however I specialize in singing Pop, Soul and RnB."
+    },
+    "prices": {
+      "title": "Prices:",
+      "amount": "£25 per 1/2 hour £40 per hour",
+      "details": "Lessons are pay-as-you-go, weekly, fortnightly or as suits you."
+    },
+    "location": {
+      "title": "Location",
+      "address": "Albury Street, London, SE8 3PT",
+      "teachingSpace": {
+        "title": "Teaching Space",
+        "description": "I teach the majority of my lessons from a dedicated teaching studio in the SE8 3PT area. I also offer lessons via Skype & Zoom and mobile tuition."
+      }
+    },
+    "cta": {
+      "readyToStart": "Ready to start?",
+      "getInTouch": "Get in touch to book your first lesson with me today."
+    },
+    "contact": {
+      "textMeTitle": "Text me",
+      "callMeTitle": "Call me",
+      "phone": "+357 111 22 33",
+      "socialMedia": "List of social networks"
+    },
+    "footer": {
+      "copyright": "©2024 Essence Sounds"
+    }
+  }  

@@ -1,0 +1,47 @@
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr; /* Три колонки: карта - информация - соцсети */
+    gap: 20px; /* Расстояние между колонками */
+    max-width: 1200px; /* Ограничиваем максимальную ширину контейнера */
+    margin: 0 auto; /* Центрируем контейнер */
+    align-items: center; /* Центрируем элементы по вертикали */
+    padding: 0 20px; /* Отступы внутри контейнера */
+}
+
+.map-container {
+    height: 300px; /* Высота карты */
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.social-media a img {
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr; /* На мобильных устройствах колонки располагаются друг под другом */
+        gap: 10px;
+    }
+
+    .map-container, .contact-info, .social-media {
+        width: 100%;
+        text-align: center;
+    }
+}

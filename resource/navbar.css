@@ -1,0 +1,15 @@
+.navbar-nav {
+    display: flex; /* Располагаем элементы меню горизонтально */
+    align-items: center; /* Выравнивание элементов по вертикали */
+}
+
+.navbar-container {
+    min-height: 0 !important;  /* Убираем динамически установленную высоту */
+    margin-bottom: 0 !important;  /* Убираем отрицательный margin */
+}
+
+#languageToggle {
+    margin-left: 15px; /* Регулировка отступа от последнего пункта меню */
+    padding: 5px 10px;  /* Настройка отступов внутри кнопки */
+    height: auto; /* Убираем фиксированную высоту, если она задана */
+}
