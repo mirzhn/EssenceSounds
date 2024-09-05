@@ -83,3 +83,16 @@ ul li {
     background-color: #e0a800;
 }
 
+/* Для карточек вокала */
+.pricecard.vocal {
+    background-color: #dce1ef; /* Темно-синий фон */
+    color: #1F2937;
+    border: 2px solid #2563EB; /* Синяя рамка */
+}
+
+/* Для карточек фортепиано */
+.pricecard.piano {
+    background-color: #f3daef; /* Светло-серый/голубоватый фон */
+    color: #1F2937; /* Темно-серый текст */
+    border: 2px solid #93C5FD; /* Голубоватая рамка */
+}

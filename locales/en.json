@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Vocal Lessons in Limassol • Inna Gurina • Vocal Coach",
-    "description": "Welcome to Vocal Lessons in Limassol. I am Inna, a professional vocal coach offering personalized lessons in Limassol.",
-    "keywords": "Vocal Lessons in Limassol, Vocal Coach in Limassol, Limassol Vocal Teacher"
+    "title": "Vocal and Piano Lessons in Limassol • Inna Gurina • Vocal and Piano Teacher",
+    "description": "Welcome to Vocal and Piano Lessons in Limassol. I am Inna, a professional vocal and piano teacher with 12 years of experience, offering personalized lessons for all ages in Russian and English.",
+    "keywords": "Vocal lessons in Limassol, Piano lessons in Limassol, Vocal and Piano teacher in Limassol, Limassol Vocal Teacher, Limassol Piano Teacher"
   },
   "navbar": {
-    "brand": "Vocal Lessons in Limassol",
+    "brand": "Vocal and Piano Lessons in Limassol",
     "about": "About Me",
     "prices": "Prices",
     "location": "Location",
@@ -13,28 +13,28 @@
   },
   "header": {
     "welcome": "Welcome",
-    "title": "Vocal Lessons in Limassol",
-    "intro": "Hello! I’m Inna Gurina, a professional vocal coach offering personalized lessons for all ages and skill levels in Limassol.",
+    "title": "Vocal and Piano Lessons in Limassol",
+    "intro": "Hello! I’m Inna Gurina, a professional teacher, offering personalized lessons for all ages and skill levels in Limassol.",
     "findOutMore": "Find Out More"
   },
   "about": {
-    "badge": "Inna Gurina - Professional Vocal Coach",
+    "badge": "Inna Gurina - Professional Vocal and Piano Teacher",
     "missionBadge": "My Mission",
     "missionTitle": "Lessons from a True Professional",
-    "missionText1": "In addition to teaching, I am a professional singer with years of experience in live performances. I am happy to share the knowledge and techniques I’ve gained with my students every day.",
-    "missionText2": "I have experience in performing, writing, and teaching in various genres, though I specialize in pop, soul, and RnB."
+    "missionText1": "In the educational process, I use a modern Western teaching methodology, my knowledge gained from studying music technology at the University of York, and many years of live performance experience.",
+    "missionText2": ""
   },
   "prices": {
     "title": "Prices:",
     "single": {
-      "title": "Single Lesson",
+      "title": "Single Lesson <br> Vocal",
       "duration": "55 minutes",
       "lessons": "1 lesson",
       "price": "40€"
     },
     "standard": {
       "discount": "DISCOUNT -12%",
-      "title": "Standard Subscription",
+      "title": "Standard Subscription <br> Vocal",
       "validity": "Valid for 30 days",
       "duration": "55 minutes",
       "frequency": "Once a week",
@@ -43,12 +43,37 @@
     },
     "intensive": {
       "discount": "DISCOUNT -25%",
-      "title": "Intensive Subscription",
+      "title": "Intensive Subscription <br> Vocal",
       "validity": "Valid for 30 days",
       "duration": "55 minutes",
       "frequency": "Twice a week",
       "lessons": "8 lessons",
       "price": "240€"
+    },
+    "piano": {
+      "single": {
+        "title": "Single Lesson <br> Piano",
+        "duration": "55 minutes",
+        "lessons": "1 lesson",
+        "price": "30€"
+      },
+      "standard": {
+        "title": "Standard Subscription <br> Piano",
+        "validity": "Valid for 30 days",
+        "duration": "55 minutes",
+        "frequency": "Once a week",
+        "lessons": "4 lessons",
+        "price": "120€"
+      },
+      "intensive": {
+        "discount": "DISCOUNT -20%",
+        "title": "Intensive Subscription <br> Piano",
+        "validity": "Valid for 30 days",
+        "duration": "55 minutes",
+        "frequency": "Twice a week",
+        "lessons": "8 lessons",
+        "price": "200€"
+      }
     }
   },
   "location": {
@@ -56,7 +81,7 @@
     "address": "The studio is located at 4a Douriou Ippou St., Limassol",
     "teachingSpace": {
       "title": "Teaching Space",
-      "description": "I conduct most of my lessons in a specially equipped studio. I also offer lessons via Skype and Zoom."
+      "description": "I conduct most of my lessons in a specially equipped studio. I also offer lessons via Skype and Zoom in both Russian and English."
     }
   },
   "cta": {

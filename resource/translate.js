@@ -27,10 +27,16 @@ function updateContentLanguage(translations) {
         if (el.tagName === 'META') {
             el.setAttribute('content', text);
         } else {
-            el.textContent = text;
+            // Проверяем, содержит ли текст HTML
+            if (text.includes('<br>') || text.includes('<strong>') || text.includes('<em>')) {
+                el.innerHTML = text; // вставляем HTML-код
+            } else {
+                el.textContent = text; // вставляем текст как есть
+            }
         }
     });
 }
+
 
 // Обработчик клика по кнопке для переключения языка
 document.getElementById('languageToggle').addEventListener('click', () => {

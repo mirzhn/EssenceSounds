@@ -16,6 +16,7 @@
     <meta name="DC.Publisher" lang="en" content="Singing Lessons Limassol">
     <meta name="DC.Title" lang="en" content="" data-translate="meta.title">
     <title data-translate="meta.title"></title>
+    <link rel="icon" href="/resource/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="./resource/loader.css">
     <link rel="stylesheet" href="./resource/navbar.css">
     <link rel="stylesheet" href="./resource/price.css">
@@ -63,16 +64,22 @@
     <section class="bg-dark text-light header-inner p-0 jarallax o-hidden" style="padding-top: 40px !important;">
         <div class="container py-0 layer-2">
             <div class="row my-4 my-md-6">
-                <div class="col-lg-9 col-xl-8">
+                <!-- Левый блок с текстом -->
+                <div class="col-lg-8 col-xl-8">
                     <p class="lead mb-0" data-translate="header.welcome">Добро пожаловать</p>
                     <h1 class="display-4" data-translate="header.title">Уроки вокала Лимассол</h1>
                     <p class="lead mb-0" data-translate="header.intro">Здравствуйте! Я Инна Гурина, профессиональный преподаватель вокала, предлагающий персонализированные уроки для всех возрастов и уровней подготовки в Лимассоле.</p>
                     <br>
                     <span onclick="scrollAboutMe()" class="btn btn-primary shadow lift mr-1" style="cursor:pointer" data-translate="header.findOutMore">Find Out More</span>
                 </div>
+                <!-- Правый блок с логотипом -->
+                <div class="col-lg-4 col-xl-4 d-flex align-items-center justify-content-end">
+                    <img src="/resource/studio_logo.png" alt="Logo" style="max-width: 100%; height: auto;">
+                </div>
             </div>
         </div>
     </section>
+    
 
     <section id="about-me">
         <div class="container">
@@ -106,18 +113,20 @@
                 </div>
             </div>
             <div class="pricing-container">
-                <div class="pricecard">
-                    <h3 data-translate="prices.single.title">Разовое занятие</h3>
+                <!-- Vocal Lesson Cards -->
+                 
+                <div class="pricecard vocal">
+                    <h3 data-translate="prices.single.title">Разовое занятие <br> Вокал</h3>
                     <ul>
                         <li data-translate="prices.single.duration">55 минут</li>
                         <li data-translate="prices.single.lessons">1 урок</li>
                     </ul>
                     <div class="price" data-translate="prices.single.price">40€</div>
                 </div>
-                
-                <div class="pricecard">
+    
+                <div class="pricecard vocal">
                     <div class="discount" data-translate="prices.standard.discount">СКИДКА -12%</div>
-                    <h3 data-translate="prices.standard.title">Абонемент стандарт</h3>
+                    <h3 data-translate="prices.standard.title">Абонемент стандарт <br> Вокал</h3>
                     <p data-translate="prices.standard.validity">Действует 30 дней</p>
                     <ul>
                         <li data-translate="prices.standard.duration">55 минут</li>
@@ -126,10 +135,10 @@
                     </ul>
                     <div class="price" data-translate="prices.standard.price">140€</div>
                 </div>
-            
-                <div class="pricecard">
+    
+                <div class="pricecard vocal">
                     <div class="discount" data-translate="prices.intensive.discount">СКИДКА -25%</div>
-                    <h3 data-translate="prices.intensive.title">Абонемент интенсив</h3>
+                    <h3 data-translate="prices.intensive.title">Абонемент интенсив <br> Вокал</h3>
                     <p data-translate="prices.intensive.validity">Действует 30 дней</p>
                     <ul>
                         <li data-translate="prices.intensive.duration">55 минут</li>
@@ -138,9 +147,43 @@
                     </ul>
                     <div class="price" data-translate="prices.intensive.price">240€</div>
                 </div>
+    
+                <!-- Piano Lesson Cards -->
+                <div class="pricecard piano">
+                    <h3 data-translate="prices.piano.single.title">Разовое занятие <br> Фортепиано</h3>
+                    <ul>
+                        <li data-translate="prices.piano.single.duration">55 минут</li>
+                        <li data-translate="prices.piano.single.lessons">1 урок</li>
+                    </ul>
+                    <div class="price" data-translate="prices.piano.single.price">30€</div>
+                </div>
+    
+                <div class="pricecard piano">
+                    <h3 data-translate="prices.piano.standard.title">Абонемент стандарт <br> Фортепиано</h3>
+                    <p data-translate="prices.piano.standard.validity">Действует 30 дней</p>
+                    <ul>
+                        <li data-translate="prices.piano.standard.duration">55 минут</li>
+                        <li data-translate="prices.piano.standard.frequency">1 раз в неделю</li>
+                        <li data-translate="prices.piano.standard.lessons">4 урока</li>
+                    </ul>
+                    <div class="price" data-translate="prices.piano.standard.price">120€</div>
+                </div>
+    
+                <div class="pricecard piano">
+                    <div class="discount" data-translate="prices.piano.intensive.discount">СКИДКА -20%</div>
+                    <h3 data-translate="prices.piano.intensive.title">Абонемент интенсив <br> Фортепиано</h3>
+                    <p data-translate="prices.piano.intensive.validity">Действует 30 дней</p>
+                    <ul>
+                        <li data-translate="prices.piano.intensive.duration">55 минут</li>
+                        <li data-translate="prices.piano.intensive.frequency">2 раза в неделю</li>
+                        <li data-translate="prices.piano.intensive.lessons">8 уроков</li>
+                    </ul>
+                    <div class="price" data-translate="prices.piano.intensive.price">200</div>
+                </div>
             </div>
         </div>
     </section>
+    
     
 
     <section id="location" class="bg-primary-alt">
