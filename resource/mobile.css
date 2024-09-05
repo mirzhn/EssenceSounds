@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+    /* Стили для устройств с шириной экрана до 767px (мобильные устройства) */
+    .header-inner {
+        text-align: center; /* Центрирование контента */
+    }
+    .navbar-logo img {
+        display: none;
+    }
+}
+
+.navbar-toggler {
+    border-color: #fff; /* Цвет кнопки-бургера */
+  }
+
