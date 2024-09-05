@@ -1,53 +1,75 @@
 {
-    "meta": {
-      "title": "Singing Lessons London • Louise Macphail • Singing Teacher",
-      "description": "Welcome to Singing Lessons London. I'm Louise and I'm a professional singing teacher offering personalized lessons in the London area.",
-      "keywords": "Singing Lessons London, Singing Teacher London, London Singing Teacher"
+  "meta": {
+    "title": "Vocal Lessons in Limassol • Inna Gurina • Vocal Coach",
+    "description": "Welcome to Vocal Lessons in Limassol. I am Inna, a professional vocal coach offering personalized lessons in Limassol.",
+    "keywords": "Vocal Lessons in Limassol, Vocal Coach in Limassol, Limassol Vocal Teacher"
+  },
+  "navbar": {
+    "brand": "Vocal Lessons in Limassol",
+    "about": "About Me",
+    "prices": "Prices",
+    "location": "Location",
+    "contact": "Contact Me"
+  },
+  "header": {
+    "welcome": "Welcome",
+    "title": "Vocal Lessons in Limassol",
+    "intro": "Hello! I’m Inna Gurina, a professional vocal coach offering personalized lessons for all ages and skill levels in Limassol.",
+    "findOutMore": "Find Out More"
+  },
+  "about": {
+    "badge": "Inna Gurina - Professional Vocal Coach",
+    "missionBadge": "My Mission",
+    "missionTitle": "Lessons from a True Professional",
+    "missionText1": "In addition to teaching, I am a professional singer with years of experience in live performances. I am happy to share the knowledge and techniques I’ve gained with my students every day.",
+    "missionText2": "I have experience in performing, writing, and teaching in various genres, though I specialize in pop, soul, and RnB."
+  },
+  "prices": {
+    "title": "Prices:",
+    "single": {
+      "title": "Single Lesson",
+      "duration": "55 minutes",
+      "lessons": "1 lesson",
+      "price": "40€"
     },
-    "navbar": {
-      "brand": "Singing Lessons London",
-      "about": "About",
-      "prices": "Prices",
-      "location": "Location",
-      "contact": "Contact Me"
+    "standard": {
+      "discount": "DISCOUNT -12%",
+      "title": "Standard Subscription",
+      "validity": "Valid for 30 days",
+      "duration": "55 minutes",
+      "frequency": "Once a week",
+      "lessons": "4 lessons",
+      "price": "140€"
     },
-    "header": {
-      "welcome": "Welcome to",
-      "title": "Singing Lessons London",
-      "intro": "Hello! I'm Louise Macphail and I'm a professional singing teacher offering personalized lessons to all ages and abilities in the London area.",
-      "findOutMore": "Find Out More"
-    },
-    "about": {
-      "badge": "Louise Macphail - Professional Singing Teacher",
-      "missionBadge": "My Mission",
-      "missionTitle": "Lessons From A True Professional",
-      "missionText1": "Alongside teaching I am a professional singer with many years of experience performing live. I am often delighted to pass the knowledge and techniques I've learned to my students on a daily basis.",
-      "missionText2": "I have had experience in performing, writing and teaching in a huge selection of genres, however I specialize in singing Pop, Soul and RnB."
-    },
-    "prices": {
-      "title": "Prices:",
-      "amount": "£25 per 1/2 hour £40 per hour",
-      "details": "Lessons are pay-as-you-go, weekly, fortnightly or as suits you."
-    },
-    "location": {
-      "title": "Location",
-      "address": "Albury Street, London, SE8 3PT",
-      "teachingSpace": {
-        "title": "Teaching Space",
-        "description": "I teach the majority of my lessons from a dedicated teaching studio in the SE8 3PT area. I also offer lessons via Skype & Zoom and mobile tuition."
-      }
-    },
-    "cta": {
-      "readyToStart": "Ready to start?",
-      "getInTouch": "Get in touch to book your first lesson with me today."
-    },
-    "contact": {
-      "textMeTitle": "Text me",
-      "callMeTitle": "Call me",
-      "phone": "+357 111 22 33",
-      "socialMedia": "List of social networks"
-    },
-    "footer": {
-      "copyright": "©2024 Essence Sounds"
+    "intensive": {
+      "discount": "DISCOUNT -25%",
+      "title": "Intensive Subscription",
+      "validity": "Valid for 30 days",
+      "duration": "55 minutes",
+      "frequency": "Twice a week",
+      "lessons": "8 lessons",
+      "price": "240€"
     }
-  }  
+  },
+  "location": {
+    "title": "Location",
+    "address": "The studio is located at 4a Douriou Ippou St., Limassol",
+    "teachingSpace": {
+      "title": "Teaching Space",
+      "description": "I conduct most of my lessons in a specially equipped studio. I also offer lessons via Skype and Zoom."
+    }
+  },
+  "cta": {
+    "readyToStart": "Ready to Start?",
+    "getInTouch": "Get in touch to book your first lesson"
+  },
+  "contact": {
+    "textMeTitle": "Text Me",
+    "callMeTitle": "Call Me",
+    "phone": "+357 111 22 33",
+    "socialMedia": "list of social media"
+  },
+  "footer": {
+    "copyright": "©2024 Essence Sounds"
+  }
+}
