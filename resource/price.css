@@ -44,7 +44,7 @@
 }
 
 .pricecard p {
-    color: gray;
+    color: gray; /* Серый текст для абзацев, например, "Действует 30 дней" */
     margin: 10px 0;
 }
 
@@ -57,6 +57,7 @@ ul {
 ul li {
     margin: 10px 0;
     font-size: 16px;
+    color: #1F2937; /* Тёмный текст для списка, чтобы выделить его */
 }
 
 .price {
@@ -87,20 +88,34 @@ ul li {
 .pricecard.vocal {
     background-color: #dce1ef;
     color: #1F2937;
-    border: 2px solid #2563EB;
+    border: 2px solid #7b7b7b;
 }
 
 /* Для карточек фортепиано */
 .pricecard.piano {
-    background-color: #f3daef;
+    background-color: #d0d6d7;
     color: #1F2937;
-    border: 2px solid #93C5FD;
+    border: 2px solid #7b7b7b;
 }
 
 /* Адаптация для мобильных устройств */
 @media (max-width: 767px) {
     .pricecard {
         width: 100%; /* Карточки занимают всю ширину экрана */
-        margin-bottom: 20px; /* Добавляем отступ снизу для лучшего разделения */
+        margin-bottom: 20px; /* Отступ снизу */
+    }
+
+    .pricecard p {
+        font-size: 18px;
+        color: gray; /* Серый текст в мобильной версии */
+    }
+
+    ul li {
+        font-size: 18px; /* Увеличиваем размер текста на мобильных устройствах */
+        color: #1F2937; /* Темный текст в списке на мобильных */
+    }
+
+    .price {
+        font-size: 24px; /* Немного увеличиваем цену */
     }
 }
