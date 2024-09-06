@@ -21,3 +21,8 @@
     text-align: center !important; /* Центрирование текста */
 }
 
+#languageToggle {
+    margin-left: auto; /* Сдвигаем кнопку к правой стороне */
+    padding: 5px 10px; /* Настраиваем отступы внутри кнопки */
+    font-size: 14px; /* Размер шрифта */
+}
