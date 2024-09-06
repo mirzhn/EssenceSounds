@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "Vocal and Piano Lessons in Limassol • Inna Gurina • Vocal and Piano Teacher",
-    "description": "Welcome to Vocal and Piano Lessons in Limassol. I am Inna, a professional vocal and piano teacher with 12 years of experience, offering personalized lessons for all ages in Russian and English.",
-    "keywords": "Vocal lessons in Limassol, Piano lessons in Limassol, Vocal and Piano teacher in Limassol, Limassol Vocal Teacher, Limassol Piano Teacher"
+    "description": "Welcome to Vocal and Piano Lessons in Limassol. I am Inna, a professional vocal and piano teacher with 12 years of experience, offering personalized lessons for all ages in both Russian and English.",
+    "keywords": "Vocal Lessons in Limassol, Piano Lessons in Limassol, Vocal and Piano Teacher in Limassol, Limassol Vocal Teacher, Limassol Piano Teacher"
   },
   "navbar": {
-    "brand": "Vocal and Piano Lessons in Limassol",
+    "brand": "Vocal and Piano Lessons",
     "about": "About Me",
     "prices": "Prices",
     "location": "Location",
@@ -14,14 +14,14 @@
   "header": {
     "welcome": "Welcome",
     "title": "Vocal and Piano Lessons in Limassol",
-    "intro": "Hello! I’m Inna Gurina, a professional teacher, offering personalized lessons for all ages and skill levels in Limassol.",
+    "intro": "Hello! I’m Inna Gurina, a professional teacher offering personalized lessons for all ages and skill levels in Limassol.",
     "findOutMore": "Find Out More"
   },
   "about": {
     "badge": "Inna Gurina - Professional Vocal and Piano Teacher",
     "missionBadge": "My Mission",
     "missionTitle": "Lessons from a True Professional",
-    "missionText1": "In the educational process, I use a modern Western teaching methodology, my knowledge gained from studying music technology at the University of York, and many years of live performance experience.",
+    "missionText1": "In my teaching, I use modern Western teaching methods, knowledge gained in Music Technology from the University of Hull, and many years of live performance experience.",
     "missionText2": ""
   },
   "prices": {
@@ -78,21 +78,21 @@
   },
   "location": {
     "title": "Location",
-    "address": "The studio is located at 4a Douriou Ippou St., Limassol",
+    "address": "The studio is located in the Germasogeia area",
     "teachingSpace": {
       "title": "Teaching Space",
-      "description": "I conduct most of my lessons in a specially equipped studio. I also offer lessons via Skype and Zoom in both Russian and English."
+      "description": "I conduct my lessons in a specially equipped studio. I also offer lessons via Skype and Zoom in both Russian and English."
     }
   },
   "cta": {
-    "readyToStart": "Ready to Start?",
-    "getInTouch": "Get in touch to book your first lesson"
+    "readyToStart": "Ready to start?",
+    "getInTouch": "Contact me to book your first lesson"
   },
   "contact": {
     "textMeTitle": "Text Me",
     "callMeTitle": "Call Me",
     "phone": "+357 111 22 33",
-    "socialMedia": "list of social media"
+    "socialMedia": "social media list"
   },
   "footer": {
     "copyright": "©2024 Essence Sounds"
