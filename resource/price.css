@@ -19,12 +19,12 @@
     justify-content: space-between;
     align-self: stretch;
     min-height: 400px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Добавляем плавный переход для увеличения и тени */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .pricecard:hover {
-    transform: scale(1.05); /* Увеличиваем карточку на 5% при наведении */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Увеличиваем тень для создания эффекта подъема */
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .discount {
@@ -33,7 +33,7 @@
     font-size: 14px;
     padding: 5px 10px;
     position: absolute;
-    top: 10px;  /* Оставляем место для заголовка */
+    top: 10px;
     right: 10px;
     border-radius: 5px;
 }
@@ -85,14 +85,22 @@ ul li {
 
 /* Для карточек вокала */
 .pricecard.vocal {
-    background-color: #dce1ef; /* Темно-синий фон */
+    background-color: #dce1ef;
     color: #1F2937;
-    border: 2px solid #2563EB; /* Синяя рамка */
+    border: 2px solid #2563EB;
 }
 
 /* Для карточек фортепиано */
 .pricecard.piano {
-    background-color: #f3daef; /* Светло-серый/голубоватый фон */
-    color: #1F2937; /* Темно-серый текст */
-    border: 2px solid #93C5FD; /* Голубоватая рамка */
+    background-color: #f3daef;
+    color: #1F2937;
+    border: 2px solid #93C5FD;
+}
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 767px) {
+    .pricecard {
+        width: 100%; /* Карточки занимают всю ширину экрана */
+        margin-bottom: 20px; /* Добавляем отступ снизу для лучшего разделения */
+    }
 }

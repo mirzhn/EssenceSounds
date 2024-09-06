@@ -12,3 +12,12 @@
     border-color: #fff; /* Цвет кнопки-бургера */
   }
 
+.professional-title {
+    word-wrap: break-word !important; /* Перенос длинных слов */
+    word-break: break-word !important; /* Перенос на новую строку при необходимости */
+    white-space: normal !important; /* Позволяет тексту переноситься */
+    display: inline-block !important; /* Превращает элемент в блоковый */
+    width: 100% !important; /* Расширяет элемент на всю ширину родителя */
+    text-align: center !important; /* Центрирование текста */
+}
+
