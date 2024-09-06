@@ -3,7 +3,7 @@ let currentLanguage = 'ru'; // Текущий язык по умолчанию
 // Функция загрузки переводов и обновления контента
 function loadTranslations(lang) {
     const basePath = window.location.pathname.includes('EssenceSounds') ? '/EssenceSounds' : '';
-    fetch(`${basePath}/locales/${lang}.json`)
+    fetch(`${basePath}/locales/${lang}.json?v=1.0.1`)
         .then(response => response.json())
         .then(translations => {
             updateContentLanguage(translations);
