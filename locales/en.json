@@ -27,49 +27,49 @@
   "prices": {
     "title": "Prices:",
     "single": {
-      "title": "Single Lesson <br> Vocal",
-      "duration": "55 minutes",
+      "title": "Single Lesson",
+      "duration": "60 minutes",
       "lessons": "1 lesson",
       "price": "40€"
     },
     "standard": {
       "discount": "DISCOUNT -12%",
-      "title": "Standard Subscription <br> Vocal",
+      "title": "Standard Subscription",
       "validity": "Valid for 30 days",
-      "duration": "55 minutes",
+      "duration": "60 minutes",
       "frequency": "Once a week",
       "lessons": "4 lessons",
       "price": "140€"
     },
     "intensive": {
       "discount": "DISCOUNT -25%",
-      "title": "Intensive Subscription <br> Vocal",
+      "title": "Intensive Subscription",
       "validity": "Valid for 30 days",
-      "duration": "55 minutes",
+      "duration": "60 minutes",
       "frequency": "Twice a week",
       "lessons": "8 lessons",
       "price": "240€"
     },
     "piano": {
       "single": {
-        "title": "Single Lesson <br> Piano",
-        "duration": "55 minutes",
+        "title": "Single Lesson",
+        "duration": "60 minutes",
         "lessons": "1 lesson",
         "price": "30€"
       },
       "standard": {
-        "title": "Standard Subscription <br> Piano",
+        "title": "Standard Subscription",
         "validity": "Valid for 30 days",
-        "duration": "55 minutes",
+        "duration": "60 minutes",
         "frequency": "Once a week",
         "lessons": "4 lessons",
         "price": "120€"
       },
       "intensive": {
         "discount": "DISCOUNT -20%",
-        "title": "Intensive Subscription <br> Piano",
+        "title": "Intensive Subscription",
         "validity": "Valid for 30 days",
-        "duration": "55 minutes",
+        "duration": "60 minutes",
         "frequency": "Twice a week",
         "lessons": "8 lessons",
         "price": "200€"

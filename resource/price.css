@@ -1,9 +1,14 @@
+
 .pricing-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
     align-items: stretch;
+}
+
+.bold-numbers {
+    font-weight: bold;
 }
 
 .pricecard {
@@ -14,14 +19,26 @@
     width: 30%;
     text-align: center;
     position: relative;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-self: stretch;
     min-height: 400px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
 }
 
+.pricecard .price {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px; /* Добавляем отступ сверху */
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%; /* Кнопка занимает всю ширину */
+    align-self: stretch; /* Устанавливаем, чтобы элемент занимал всю доступную ширину */
+}
 .pricecard:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -38,8 +55,19 @@
     border-radius: 5px;
 }
 
+.popular {
+    background-color: #fd55e4;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 5px;
+}
+
 .pricecard h3 {
-    font-size: 20px;
+    font-size: 15px;
     margin: 30px 0;
 }
 
@@ -61,17 +89,17 @@ ul li {
 }
 
 .price {
-    font-size: 22px;
+    font-size:15px;
     font-weight: bold;
     margin: 20px 0;
-    background-color: black;
+    background-color: #343a40;
     color: white;
     padding: 10px 0;
     border-radius: 5px;
 }
 
 .btn {
-    background-color: #ffc107;
+    background-color: #f4f4f4;
     color: black;
     padding: 10px 20px;
     border: none;
@@ -81,19 +109,19 @@ ul li {
 }
 
 .btn:hover {
-    background-color: #e0a800;
+    background-color: #f0f0f0;
 }
 
 /* Для карточек вокала */
 .pricecard.vocal {
-    background-color: #dce1ef;
+    background-color: #ebf0f1;
     color: #1F2937;
     border: 2px solid #7b7b7b;
 }
 
 /* Для карточек фортепиано */
 .pricecard.piano {
-    background-color: #d0d6d7;
+    background-color: #ebf0f1;
     color: #1F2937;
     border: 2px solid #7b7b7b;
 }
@@ -119,3 +147,61 @@ ul li {
         font-size: 24px; /* Немного увеличиваем цену */
     }
 }
+
+
+/* Оформление контейнера с кнопками */
+.tab-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #f0f0f0; /* Цвет фона овала */
+    border-radius: 30px; /* Полное скругление углов контейнера */
+    padding: 5px; /* Внутренний отступ для создания пространства вокруг кнопок */
+    width: fit-content; /* Автоматическая подстройка под ширину кнопок */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Небольшая тень для эффекта */
+}
+
+/* Общие стили для кнопок */
+.tab-button {
+    padding: 10px 30px;
+    border: none;
+    background: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    flex: 1; /* Равномерное распределение кнопок */
+}
+
+/* Скругления для кнопок */
+.tab-button:first-child {
+    border-radius: 20px 0 0 20px; /* Скругляем левый край */
+}
+
+.tab-button:last-child {
+    border-radius: 0 20px 20px 0; /* Скругляем правый край */
+}
+
+/* Активная кнопка */
+.tab-button.active {
+    background-color: #343a40; /* Синий фон для активной кнопки */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для активной кнопки */
+}
+
+/* Неактивная кнопка */
+.tab-button {
+    color: #343a40; /* Синий текст для неактивной вкладки */
+}
+
+/* Эффект при наведении на неактивную кнопку */
+.tab-button:not(.active):hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Легкий синий фон при наведении */
+}
+
+
+/* Скрытый контент */
+.hidden {
+    display: none;
+}
+
+/* Стили для карточек можно оставить те же, что и у вас */

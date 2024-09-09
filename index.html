@@ -63,7 +63,6 @@
         </nav>
     </div>
     
-
     <section class="bg-dark text-light header-inner p-0 jarallax o-hidden" style="padding-top: 40px !important;">
         <div class="container py-0 layer-2">
             <div class="row my-4 my-md-6">
@@ -73,7 +72,7 @@
                     <h1 class="display-4" data-translate="header.title">Уроки вокала Лимассол</h1>
                     <p class="lead mb-0" data-translate="header.intro">Здравствуйте! Я Инна Гурина, профессиональный преподаватель вокала, предлагающий персонализированные уроки для всех возрастов и уровней подготовки в Лимассоле.</p>
                     <br>
-                    <span onclick="scrollAboutMe()" class="btn btn-primary shadow lift mr-1" style="cursor:pointer" data-translate="header.findOutMore">Find Out More</span>
+                    <span onclick="scrollPrices()" class="btn btn-primary shadow lift mr-1" style="cursor:pointer" data-translate="header.findOutMore">Узнать цены</span>
                 </div>
                 <!-- Правый блок с логотипом -->
                 <div class="navbar-logo col-lg-4 col-xl-4 d-flex align-items-center justify-content-end">
@@ -82,7 +81,6 @@
             </div>
         </div>
     </section>
-    
 
     <section id="about-me">
         <div class="container">
@@ -97,7 +95,7 @@
                 <div class="col-md-7 col-xl-6">
                     <div class="row justify-content-center">
                         <div class="col-xl-8 col-lg-10">
-                            <span class="badge badge-primary" data-translate="about.missionBadge">Моя миссия</span>
+                            <span class="badge badge-primary" data-translate="about.missionBadge">Обо мне</span>
                             <div class="my-3">
                                 <h2 class="h1" data-translate="about.missionTitle">Уроки от настоящего профессионала</h2>
                             </div>
@@ -114,81 +112,86 @@
         <div class="container">
             <div class="row justify-content-between o-hidden">
                 <div class="col-md-6">
-                    <h2 class="h1" data-translate="prices.title">Цены:</h2><br>
+                    <span class="badge badge-primary price" data-translate="prices.title">Цены</span>
+                    <!-- Переключатель между "Вокал" и "Фортепиано" -->
+                    <div class="tab-container">
+                        <button class="tab-button active" id="vocal-tab">Вокал</button>
+                        <button class="tab-button" id="piano-tab">Фортепиано</button>
+                    </div>
                 </div>
-            </div>
+            </div>            
             <div class="pricing-container">
-                <!-- Vocal Lesson Cards -->
-                 
+                <!-- Карточки Вокала -->
                 <div class="pricecard vocal">
-                    <h3 data-translate="prices.single.title">Разовое занятие <br> Вокал</h3>
+                    <h3 data-translate="prices.single.title">Разовое занятие</h3>
                     <ul>
-                        <li data-translate="prices.single.duration">55 минут</li>
                         <li data-translate="prices.single.lessons">1 урок</li>
+                        <li data-translate="prices.single.duration">60 минут</li>
                     </ul>
-                    <div class="price" data-translate="prices.single.price">40€</div>
+                    <div class="price" onclick="scrollContact()" style="cursor:pointer" data-translate="prices.single.price">40€</div>
                 </div>
     
                 <div class="pricecard vocal">
+                    <div class="popular" data-translate="prices.standard.popular">ПОПУЛЯРНЫЙ</div>
                     <div class="discount" data-translate="prices.standard.discount">СКИДКА -12%</div>
-                    <h3 data-translate="prices.standard.title">Абонемент стандарт <br> Вокал</h3>
+                    <h3 data-translate="prices.standard.title">Абонемент стандарт</h3>
                     <p data-translate="prices.standard.validity">Действует 30 дней</p>
                     <ul>
-                        <li data-translate="prices.standard.duration">55 минут</li>
-                        <li data-translate="prices.standard.frequency">1 раз в неделю</li>
                         <li data-translate="prices.standard.lessons">4 урока</li>
+                        <li data-translate="prices.standard.frequency">1 раз в неделю</li>
+                        <li data-translate="prices.standard.duration">60 минут</li>
                     </ul>
-                    <div class="price" data-translate="prices.standard.price">140€</div>
+                    <div class="price" onclick="scrollContact()" style="cursor:pointer" data-translate="prices.standard.price">140€</div>
                 </div>
     
                 <div class="pricecard vocal">
                     <div class="discount" data-translate="prices.intensive.discount">СКИДКА -25%</div>
-                    <h3 data-translate="prices.intensive.title">Абонемент интенсив <br> Вокал</h3>
+                    <h3 data-translate="prices.intensive.title">Абонемент интенсив</h3>
                     <p data-translate="prices.intensive.validity">Действует 30 дней</p>
                     <ul>
-                        <li data-translate="prices.intensive.duration">55 минут</li>
-                        <li data-translate="prices.intensive.frequency">2 раза в неделю</li>
                         <li data-translate="prices.intensive.lessons">8 уроков</li>
+                        <li data-translate="prices.intensive.frequency">2 раза в неделю</li>
+                        <li data-translate="prices.intensive.duration">60 минут</li>
                     </ul>
-                    <div class="price" data-translate="prices.intensive.price">240€</div>
+                    <div class="price" onclick="scrollContact()" style="cursor:pointer" data-translate="prices.intensive.price">240€</div>
                 </div>
     
-                <!-- Piano Lesson Cards -->
+                <!-- Карточки Фортепиано -->
                 <div class="pricecard piano">
-                    <h3 data-translate="prices.piano.single.title">Разовое занятие <br> Фортепиано</h3>
+                    <h3 data-translate="prices.piano.single.title">Разовое занятие</h3>
                     <ul>
-                        <li data-translate="prices.piano.single.duration">55 минут</li>
                         <li data-translate="prices.piano.single.lessons">1 урок</li>
+                        <li data-translate="prices.piano.single.duration">60 минут</li>
                     </ul>
-                    <div class="price" data-translate="prices.piano.single.price">30€</div>
+                    <div class="price" onclick="scrollContact()" style="cursor:pointer" data-translate="prices.piano.single.price">30€</div>
                 </div>
     
                 <div class="pricecard piano">
-                    <h3 data-translate="prices.piano.standard.title">Абонемент стандарт <br> Фортепиано</h3>
+                    <h3 data-translate="prices.piano.standard.title">Абонемент стандарт</h3>
+                    <div class="popular" data-translate="prices.standard.popular">ПОПУЛЯРНЫЙ</div>
                     <p data-translate="prices.piano.standard.validity">Действует 30 дней</p>
                     <ul>
-                        <li data-translate="prices.piano.standard.duration">55 минут</li>
-                        <li data-translate="prices.piano.standard.frequency">1 раз в неделю</li>
                         <li data-translate="prices.piano.standard.lessons">4 урока</li>
+                        <li data-translate="prices.piano.standard.frequency">1 раз в неделю</li>
+                        <li data-translate="prices.piano.standard.duration">60 минут</li>
                     </ul>
-                    <div class="price" data-translate="prices.piano.standard.price">120€</div>
+                    <div class="price" onclick="scrollContact()" style="cursor:pointer" data-translate="prices.piano.standard.price">120€</div>
                 </div>
     
                 <div class="pricecard piano">
                     <div class="discount" data-translate="prices.piano.intensive.discount">СКИДКА -20%</div>
-                    <h3 data-translate="prices.piano.intensive.title">Абонемент интенсив <br> Фортепиано</h3>
+                    <h3 data-translate="prices.piano.intensive.title">Абонемент интенсив</h3>
                     <p data-translate="prices.piano.intensive.validity">Действует 30 дней</p>
                     <ul>
-                        <li data-translate="prices.piano.intensive.duration">55 минут</li>
-                        <li data-translate="prices.piano.intensive.frequency">2 раза в неделю</li>
                         <li data-translate="prices.piano.intensive.lessons">8 уроков</li>
+                        <li data-translate="prices.piano.intensive.frequency">2 раза в неделю</li>
+                        <li data-translate="prices.piano.intensive.duration">60 минут</li>
                     </ul>
-                    <div class="price" data-translate="prices.piano.intensive.price">200</div>
+                    <div class="price" onclick="scrollContact()" style="cursor:pointer" data-translate="prices.piano.intensive.price">200€</div>
                 </div>
             </div>
         </div>
     </section>
-    
     
 
     <section id="location" class="bg-primary-alt">
@@ -266,6 +269,7 @@
             </div>
         </div>
         <script src="./resource/theme-jquery.min.js"></script>
+        <script src="./resource/price.js"></script>
         <script src="./resource/theme-popper.min.js"></script>
         <script src="./resource/theme-bootstrap.js"></script>
         <script src="./resource/theme-javascript.min.js"></script>
@@ -273,15 +277,50 @@
         <script src="./resource/translate.js"></script>
         <link href="./resource/theme-styles.min.css" rel="stylesheet" type="text/css" media="all">
         <script>
-            function scrollAboutMe() { document.getElementById('about-me').scrollIntoView({ behavior: 'smooth' }); }
-            function scrollPrices() { document.getElementById('prices').scrollIntoView({ behavior: 'smooth' }); }
-            function scrollLocation() { document.getElementById('location').scrollIntoView({ behavior: 'smooth' }); }
-            function scrollAnswers() { document.getElementById('answers').scrollIntoView({ behavior: 'smooth' }); }
-            function scrollMoreTeachers() { document.getElementById('more-teachers').scrollIntoView({ behavior: 'smooth' }); }
-            function scrollContact() { document.getElementById('contact').scrollIntoView({ behavior: 'smooth' }); }
+            function scrollToElement(elementId) {
+                const element = document.getElementById(elementId);
+                const headerOffset = 100; // Высота вашего фиксированного меню или отступа
+                const elementPosition = element.getBoundingClientRect().top; // Текущее положение элемента относительно окна
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset; // Корректируем позицию
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+            // Используем эту функцию для всех ваших элементов меню
+            function scrollAboutMe() {
+                scrollToElement('about-me');
+            }
+
+            function scrollPrices() {
+                scrollToElement('prices');
+            }
+
+            function scrollLocation() {
+                scrollToElement('location');
+            }
+
+            function scrollAnswers() {
+                scrollToElement('answers');
+            }
+
+            function scrollMoreTeachers() {
+                scrollToElement('more-teachers');
+            }
+
+            function scrollContact() {
+                scrollToElement('contact');
+            }   
             window.addEventListener("load", function() {
                 setTimeout('document.querySelector("body").classList.add("loaded");', 0);       
             });
+            
+
+            window.onload = function() {
+                vocalTab.click(); // Программно активируем вкладку "Вокал"
+                boldNumbers();
+            };
         </script>
     </footer>
 </body>
