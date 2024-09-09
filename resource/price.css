@@ -12,7 +12,7 @@
 }
 
 .pricecard {
-    background-color: #f9f9f9;
+    background-color: #9fa3a4;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -45,7 +45,7 @@
 }
 
 .discount {
-    background-color: #ff5e57;
+    background-color: #87A1D1;
     color: white;
     font-size: 14px;
     padding: 5px 10px;
@@ -56,7 +56,7 @@
 }
 
 .popular {
-    background-color: #fd55e4;
+    background-color: #88709D;
     color: white;
     font-size: 14px;
     padding: 5px 10px;
@@ -69,6 +69,7 @@
 .pricecard h3 {
     font-size: 15px;
     margin: 30px 0;
+    color: rgb(0, 0, 0) !important;
 }
 
 .pricecard p {
@@ -114,14 +115,14 @@ ul li {
 
 /* Для карточек вокала */
 .pricecard.vocal {
-    background-color: #ebf0f1;
+    background-color: #d3d3d3;
     color: #1F2937;
     border: 2px solid #7b7b7b;
 }
 
 /* Для карточек фортепиано */
 .pricecard.piano {
-    background-color: #ebf0f1;
+    background-color: #d3d3d3;
     color: #1F2937;
     border: 2px solid #7b7b7b;
 }
@@ -154,7 +155,7 @@ ul li {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    background-color: #f0f0f0; /* Цвет фона овала */
+    background-color: #d3d3d3; /* Цвет фона овала */
     border-radius: 30px; /* Полное скругление углов контейнера */
     padding: 5px; /* Внутренний отступ для создания пространства вокруг кнопок */
     width: fit-content; /* Автоматическая подстройка под ширину кнопок */

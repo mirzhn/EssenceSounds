@@ -5895,9 +5895,6 @@ button.bg-primary-2:focus,
 button.bg-primary-2:hover {
     background-color: #ff5e55 !important;
 }
-.bg-primary-3 {
-    background-color: #1b1f3b !important;
-}
 a.bg-primary-3:focus,
 a.bg-primary-3:hover,
 button.bg-primary-3:focus,
