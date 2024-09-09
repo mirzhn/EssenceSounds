@@ -9983,7 +9983,7 @@ img {
     transition: all 0.2s ease;
 }
 .navbar[data-sticky="top"].scrolled.navbar-dark {
-    background: #1b1f3b;
+    background: #212529;
     border-bottom-color: transparent;
 }
 .navbar[data-sticky="top"].scrolled.navbar-light {
