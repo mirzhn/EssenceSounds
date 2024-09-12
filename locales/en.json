@@ -2,7 +2,7 @@
   "meta": {
     "title": "Vocal and Piano Lessons in Limassol • Inna Gurina • Vocal and Piano Teacher",
     "description": "Welcome to Vocal and Piano Lessons in Limassol. I am Inna, a professional vocal and piano teacher with 12 years of experience, offering personalized lessons for all ages in both Russian and English.",
-    "keywords": "Vocal Lessons in Limassol, Piano Lessons in Limassol, Vocal and Piano Teacher in Limassol, Limassol Vocal Teacher, Limassol Piano Teacher"
+    "keywords": "Vocal lessons in Limassol, Piano lessons in Limassol, Vocal and piano teacher in Limassol, Limassol vocal coach, Limassol piano teacher"
   },
   "navbar": {
     "brand": "Vocal and Piano Lessons",
@@ -14,18 +14,28 @@
   "header": {
     "welcome": "Welcome",
     "title": "Vocal and Piano Lessons in Limassol",
-    "intro": "Hello! I’m Inna Gurina, a professional teacher offering personalized lessons for all ages and skill levels in Limassol.",
-    "findOutMore": "Find Out More"
+    "intro": "Inna Gurina. Vocal coach. Songwriter. Bachelor of Art Creative Music Technology.",
+    "findOutMore": "Find Out Prices"
   },
   "about": {
     "badge": "Inna Gurina - Professional Vocal and Piano Teacher",
-    "missionBadge": "My Mission",
+    "missionBadge": "About Me",
     "missionTitle": "Lessons from a True Professional",
-    "missionText1": "In my teaching, I use modern Western teaching methods, knowledge gained in Music Technology from the University of Hull, and many years of live performance experience.",
-    "missionText2": ""
+    "missionText1": "I help singers uncover the unique sound of their voice, guiding them towards healthy, effortless, and expressive singing that truly reflects their personality. My goal is to create a safe and creative space where your voice can fully develop.",
+    "missionText2": "My advantages:",
+    "missionText3": "Education in Creative Music Technology from University of Hull",
+    "missionText4": "ABRSM exam preparation",
+    "missionText5": "12 years of teaching experience in Cyprus",
+    "missionText6": "Live performance experience",
+    "missionText7": "Studio recording experience",
+    "missionText8": "Help with music production"
   },
   "prices": {
-    "title": "Prices:",
+    "switch": {
+      "vocal": "Vocal",
+      "piano": "Piano"
+    },
+    "title": "Prices",
     "single": {
       "title": "Single Lesson",
       "duration": "60 minutes",
@@ -33,20 +43,21 @@
       "price": "40€"
     },
     "standard": {
+      "popular": "POPULAR",
       "discount": "DISCOUNT -12%",
-      "title": "Standard Subscription",
+      "title": "Standard Package",
       "validity": "Valid for 30 days",
       "duration": "60 minutes",
-      "frequency": "Once a week",
+      "frequency": "1 lesson per week",
       "lessons": "4 lessons",
       "price": "140€"
     },
     "intensive": {
       "discount": "DISCOUNT -25%",
-      "title": "Intensive Subscription",
+      "title": "Intensive Package",
       "validity": "Valid for 30 days",
       "duration": "60 minutes",
-      "frequency": "Twice a week",
+      "frequency": "2 lessons per week",
       "lessons": "8 lessons",
       "price": "240€"
     },
@@ -58,19 +69,20 @@
         "price": "30€"
       },
       "standard": {
-        "title": "Standard Subscription",
+        "popular": "POPULAR",
+        "title": "Standard Package",
         "validity": "Valid for 30 days",
         "duration": "60 minutes",
-        "frequency": "Once a week",
+        "frequency": "1 lesson per week",
         "lessons": "4 lessons",
         "price": "120€"
       },
       "intensive": {
         "discount": "DISCOUNT -20%",
-        "title": "Intensive Subscription",
+        "title": "Intensive Package",
         "validity": "Valid for 30 days",
         "duration": "60 minutes",
-        "frequency": "Twice a week",
+        "frequency": "2 lessons per week",
         "lessons": "8 lessons",
         "price": "200€"
       }
@@ -81,12 +93,12 @@
     "address": "The studio is located in the Germasogeia area",
     "teachingSpace": {
       "title": "Teaching Space",
-      "description": "I conduct my lessons in a specially equipped studio. I also offer lessons via Skype and Zoom in both Russian and English."
+      "description": "I conduct most of my lessons in a specially equipped studio. I also offer Skype and Zoom lessons in both Russian and English."
     }
   },
   "cta": {
-    "readyToStart": "Ready to start?",
-    "getInTouch": "Contact me to book your first lesson"
+    "readyToStart": "Ready to Start?",
+    "getInTouch": "Get in touch with me to schedule your first lesson"
   },
   "contact": {
     "textMeTitle": "Text Me",

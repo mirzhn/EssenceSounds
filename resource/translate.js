@@ -27,16 +27,18 @@ function updateContentLanguage(translations) {
         if (el.tagName === 'META') {
             el.setAttribute('content', text);
         } else {
-            // Проверяем, содержит ли текст HTML
-            if (text.includes('<br>') || text.includes('<strong>') || text.includes('<em>')) {
-                el.innerHTML = text; // вставляем HTML-код
-            } else {
-                el.textContent = text; // вставляем текст как есть
-            }
+            el.textContent = text; // вставляем текст как есть
         }
     });
+    boldNumbers();
 }
 
+function boldNumbers() {
+    const elements = document.querySelectorAll('.pricecard li, .pricecard .price, .pricecard h3');
+    elements.forEach(element => {
+        element.innerHTML = element.innerHTML.replace(/(\d+)/g, '<span class="bold-numbers">$1</span>');
+    });
+}
 
 // Обработчик клика по кнопке для переключения языка
 document.getElementById('languageToggle').addEventListener('click', () => {
