@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /resource/
+Disallow: /prod/
+
+Sitemap: https://www.essencesounds.com/sitemap.xml
