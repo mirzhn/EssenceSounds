@@ -1204,7 +1204,7 @@ pre code {
         flex: 0 0 58.33333%;
         max-width: 58.33333%;
     }
-    .col-xl-8 {
+    .disable_col-xl-8 {
         flex: 0 0 66.66667%;
         max-width: 66.66667%;
     }
@@ -6284,7 +6284,7 @@ button.bg-primary-3:hover {
 .align-items-end {
     align-items: flex-end !important;
 }
-.align-items-center {
+.disable_align-items-center {
     align-items: center !important;
 }
 .align-items-baseline {

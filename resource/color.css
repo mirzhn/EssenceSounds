@@ -6,6 +6,19 @@
     color: white
 }
 
+#about-me ul li {
+    color: white;
+    list-style-type: none; /* Убираем стандартные маркеры */
+    padding-left: 0;
+}
+
+#about-me ul li::before {
+    content: "\2022"; /* Unicode символ для маркера */
+    color: #f5f5f5; /* Цвет маркера */
+    font-size: 24px; /* Размер маркера */
+    margin-right: 10px; /* Отступ между маркером и текстом */
+  }
+
 #prices {
     background-color: #212529; /* Цвет фона */
     background-size: cover; /* Масштабирование фона */
